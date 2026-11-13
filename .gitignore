@@ -42,6 +42,7 @@ assets/**/*.venv/
 
 # --- private-only content (publishes to studios-private, not public) ---
 artifacts/music/
+!artifacts/music/smoke/
 docs/music/
 docs/storage/
 docs/research/
