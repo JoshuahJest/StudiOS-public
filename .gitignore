@@ -39,3 +39,18 @@ assets/rocky_horror/source/
 assets/rocky_horror/transparent_png/
 assets/**/*.zip
 assets/**/*.venv/
+
+# --- private-only content (publishes to studios-private, not public) ---
+artifacts/music/
+docs/music/
+docs/storage/
+docs/research/
+juno-thomas.config.yaml
+localworker-thomas.config.yaml
+milo-thomas.config.yaml
+ripley-thomas.config.yaml
+rolla-thomas.config.yaml
+studios-operator-thomas.config.yaml
+studios-private-thomas.config.yaml
+studios-research-thomas.config.yaml
+workflows/SESSION-STATE-
