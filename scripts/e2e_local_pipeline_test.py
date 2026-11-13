@@ -23,7 +23,35 @@ from pathlib import Path
 LMSTUDIO = os.environ.get("LMSTUDIO_URL", "http://127.0.0.1:1234/v1")
 CHAT_MODEL = os.environ.get("LMSTUDIO_CHAT_MODEL", "gemma-4-e2b-it@q4_k_xl")
 EMBED_MODEL = os.environ.get("LMSTUDIO_EMBED_MODEL", "text-embedding-nomic-embed-text-v1.5")
-REPO = Path(os.environ.get("STUDIOS_REPO", "/Users/thomas/StudiOS-1.1"))
+REPO = Path(os.environ.get("STUDIOS_REPO", Path(__file__).resolve().parent.parent))
+
+def find_python() -> str:
+    """Return a working Python 3 interpreter.
+
+    Prefers the Hermes venv (it has cv2, requests, and the catalog deps), then
+    Homebrew. ``/usr/bin/python3`` is deliberately avoided: on this machine it
+    aborts with an unaccepted Xcode license.
+    """
+    import shutil
+
+    candidates = [
+        os.environ.get("STUDIOS_PYTHON"),
+        os.path.expanduser("~/.hermes/hermes-agent/venv/bin/python3"),
+        "/opt/homebrew/bin/python3",
+        shutil.which("python3"),
+    ]
+    for cand in candidates:
+        if not cand:
+            continue
+        try:
+            proc = subprocess.run([cand, "-c", "import sys; print(sys.version_info[:2])"],
+                                  capture_output=True, text=True, timeout=30)
+            if proc.returncode == 0:
+                return cand
+        except Exception:
+            continue
+    raise RuntimeError("no working Python 3 interpreter found")
+
 
 results: list[tuple[str, bool, str]] = []
 
@@ -98,7 +126,7 @@ def _pipeline():
     src = REPO / "workflows" / "workspace" / "test_source" / "test_artdeco.png"
     if not src.exists():
         raise RuntimeError(f"missing test source: {src}")
-    python = os.environ.get("STUDIOS_PYTHON", "/Users/thomas/.hermes/hermes-agent/venv/bin/python3")
+    python = find_python()
     # The pipeline stages into workflows/workspace/run_<id>/ next to the repo,
     # not next to the input, so find the newest run dir after the call.
     workspace = REPO / "workflows" / "workspace"
@@ -126,7 +154,7 @@ def _pipeline():
 
 @check("5. catalog database")
 def _catalog():
-    python = os.environ.get("STUDIOS_PYTHON", "/Users/thomas/.hermes/hermes-agent/venv/bin/python3")
+    python = find_python()
     code = (
         "import sys; sys.path.insert(0, %r)\n"
         "from schema import init, Source\n"
