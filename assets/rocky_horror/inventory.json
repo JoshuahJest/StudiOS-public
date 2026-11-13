@@ -1,0 +1,338 @@
+[
+  {
+    "path": "source/DoubleFeature20.ttf",
+    "bytes": 110060
+  },
+  {
+    "path": "source/RHPS_Theater_Kit/RHPS Theater Kit/Fonts/DentonDings10.ttf",
+    "bytes": 24460
+  },
+  {
+    "path": "source/RHPS_Theater_Kit/RHPS Theater Kit/Fonts/DoubleFeature20.ttf",
+    "bytes": 110060
+  },
+  {
+    "path": "source/RHPS_Theater_Kit/RHPS Theater Kit/Logos/RHPSLogo_Lips.png",
+    "bytes": 5996311,
+    "width": 2661,
+    "height": 1404,
+    "mode": "RGBA"
+  },
+  {
+    "path": "source/RHPS_Theater_Kit/RHPS Theater Kit/Logos/RHPSLogo_LipsFrank GS.png",
+    "bytes": 798188,
+    "width": 1523,
+    "height": 1019,
+    "mode": "LA"
+  },
+  {
+    "path": "source/RHPS_Theater_Kit/RHPS Theater Kit/Logos/RHPSLogo_LipsFrank.png",
+    "bytes": 2084531,
+    "width": 1523,
+    "height": 1019,
+    "mode": "RGBA"
+  },
+  {
+    "path": "source/RHPS_Theater_Kit/RHPS Theater Kit/Mylars/RHPSMylar_01_11.5x2.5.jpg",
+    "bytes": 1165413,
+    "width": 3750,
+    "height": 1050,
+    "mode": "RGB"
+  },
+  {
+    "path": "source/RHPS_Theater_Kit/RHPS Theater Kit/Mylars/RHPSMylar_01_12x5.jpg",
+    "bytes": 1585568,
+    "width": 3900,
+    "height": 1800,
+    "mode": "RGB"
+  },
+  {
+    "path": "source/RHPS_Theater_Kit/RHPS Theater Kit/Mylars/RHPSMylar_01_25x5.jpg",
+    "bytes": 3574825,
+    "width": 7800,
+    "height": 1800,
+    "mode": "RGB"
+  },
+  {
+    "path": "source/RHPS_Theater_Kit/RHPS Theater Kit/Mylars/RHPSMylar_02_11.5x2.5.jpg",
+    "bytes": 1241348,
+    "width": 3750,
+    "height": 1050,
+    "mode": "RGB"
+  },
+  {
+    "path": "source/RHPS_Theater_Kit/RHPS Theater Kit/Mylars/RHPSMylar_02_12x5.jpg",
+    "bytes": 1798351,
+    "width": 3900,
+    "height": 1800,
+    "mode": "RGB"
+  },
+  {
+    "path": "source/RHPS_Theater_Kit/RHPS Theater Kit/Mylars/RHPSMylar_02_25x5.jpg",
+    "bytes": 3075200,
+    "width": 7800,
+    "height": 1800,
+    "mode": "RGB"
+  },
+  {
+    "path": "source/RHPS_Theater_Kit/RHPS Theater Kit/Mylars/RHPSMylar_03_11.5x2.5.jpg",
+    "bytes": 1761778,
+    "width": 3750,
+    "height": 1050,
+    "mode": "RGB"
+  },
+  {
+    "path": "source/RHPS_Theater_Kit/RHPS Theater Kit/Mylars/RHPSMylar_03_12x5.jpg",
+    "bytes": 2822044,
+    "width": 3900,
+    "height": 1800,
+    "mode": "RGB"
+  },
+  {
+    "path": "source/RHPS_Theater_Kit/RHPS Theater Kit/Mylars/RHPSMylar_03_25x5.jpg",
+    "bytes": 4730755,
+    "width": 7800,
+    "height": 1800,
+    "mode": "RGB"
+  },
+  {
+    "path": "source/RHPS_Theater_Kit/RHPS Theater Kit/Mylars/RHPSMylar_04_11.5x2.5.jpg",
+    "bytes": 963811,
+    "width": 3750,
+    "height": 1050,
+    "mode": "RGB"
+  },
+  {
+    "path": "source/RHPS_Theater_Kit/RHPS Theater Kit/Mylars/RHPSMylar_04_12x5.jpg",
+    "bytes": 1485889,
+    "width": 3900,
+    "height": 1800,
+    "mode": "RGB"
+  },
+  {
+    "path": "source/RHPS_Theater_Kit/RHPS Theater Kit/Mylars/RHPSMylar_04_25x5.jpg",
+    "bytes": 2506666,
+    "width": 7800,
+    "height": 1800,
+    "mode": "RGB"
+  },
+  {
+    "path": "source/RHPS_Theater_Kit/RHPS Theater Kit/Photos/RHPSPhoto_Columbia.jpg",
+    "bytes": 5996730,
+    "width": 2060,
+    "height": 3060,
+    "mode": "RGB"
+  },
+  {
+    "path": "source/RHPS_Theater_Kit/RHPS Theater Kit/Photos/RHPSPhoto_FrankBradJanet.jpg",
+    "bytes": 1958275,
+    "width": 2800,
+    "height": 1867,
+    "mode": "RGB"
+  },
+  {
+    "path": "source/RHPS_Theater_Kit/RHPS Theater Kit/Photos/RHPSPhoto_FrankFloorshow.jpg",
+    "bytes": 6327896,
+    "width": 2060,
+    "height": 3060,
+    "mode": "RGB"
+  },
+  {
+    "path": "source/RHPS_Theater_Kit/RHPS Theater Kit/Photos/RHPSPhoto_FrankGirls.jpg",
+    "bytes": 1494088,
+    "width": 2000,
+    "height": 2073,
+    "mode": "RGB"
+  },
+  {
+    "path": "source/RHPS_Theater_Kit/RHPS Theater Kit/Photos/RHPSPhoto_FrankThrone.jpg",
+    "bytes": 6020808,
+    "width": 3060,
+    "height": 2060,
+    "mode": "RGB"
+  },
+  {
+    "path": "source/RHPS_Theater_Kit/RHPS Theater Kit/Photos/RHPSPhoto_LipsAlt.jpg",
+    "bytes": 1482018,
+    "width": 2482,
+    "height": 3000,
+    "mode": "RGB"
+  },
+  {
+    "path": "source/RHPS_Theater_Kit/RHPS Theater Kit/Photos/ShockTreatmentPhoto_BradJanet.jpg",
+    "bytes": 4106793,
+    "width": 3000,
+    "height": 1982,
+    "mode": "RGB"
+  },
+  {
+    "path": "source/RHPS_Theater_Kit/RHPS Theater Kit/Photos/ShockTreatmentPhoto_Dentonvale.jpg",
+    "bytes": 4556521,
+    "width": 3000,
+    "height": 2031,
+    "mode": "RGB"
+  },
+  {
+    "path": "source/RHPS_Theater_Kit/RHPS Theater Kit/Posters/RHPSPoster_New01.jpg",
+    "bytes": 18478084,
+    "width": 8400,
+    "height": 12300,
+    "mode": "RGB"
+  },
+  {
+    "path": "source/RHPS_Theater_Kit/RHPS Theater Kit/Posters/RHPSPoster_New02.jpg",
+    "bytes": 15993968,
+    "width": 8400,
+    "height": 12300,
+    "mode": "RGB"
+  },
+  {
+    "path": "source/RHPS_Theater_Kit/RHPS Theater Kit/Posters/RHPSPoster_New03.jpg",
+    "bytes": 22531862,
+    "width": 8400,
+    "height": 12300,
+    "mode": "RGB"
+  },
+  {
+    "path": "source/RHPS_Theater_Kit/RHPS Theater Kit/Posters/RHPSPoster_StyleAReplica_27x40.jpg",
+    "bytes": 17412351,
+    "width": 8400,
+    "height": 12300,
+    "mode": "RGB"
+  },
+  {
+    "path": "source/RHPS_Theater_Kit/RHPS Theater Kit/Posters/RHPSPoster_StyleBReplica_27x40.jpg",
+    "bytes": 19439692,
+    "width": 8400,
+    "height": 12300,
+    "mode": "RGB"
+  },
+  {
+    "path": "source/RHPS_Theater_Kit/__MACOSX/RHPS Theater Kit/Fonts/._DentonDings10.ttf",
+    "bytes": 331
+  },
+  {
+    "path": "source/RHPS_Theater_Kit/__MACOSX/RHPS Theater Kit/Fonts/._DoubleFeature20.ttf",
+    "bytes": 387
+  },
+  {
+    "path": "source/RHPS_Theater_Kit/__MACOSX/RHPS Theater Kit/Logos/._RHPSLogo_Lips.png",
+    "bytes": 387
+  },
+  {
+    "path": "source/RHPS_Theater_Kit/__MACOSX/RHPS Theater Kit/Logos/._RHPSLogo_LipsFrank GS.png",
+    "bytes": 387
+  },
+  {
+    "path": "source/RHPS_Theater_Kit/__MACOSX/RHPS Theater Kit/Logos/._RHPSLogo_LipsFrank.png",
+    "bytes": 387
+  },
+  {
+    "path": "source/RHPS_Theater_Kit/__MACOSX/RHPS Theater Kit/Mylars/._RHPSMylar_01_11.5x2.5.jpg",
+    "bytes": 331
+  },
+  {
+    "path": "source/RHPS_Theater_Kit/__MACOSX/RHPS Theater Kit/Mylars/._RHPSMylar_01_12x5.jpg",
+    "bytes": 331
+  },
+  {
+    "path": "source/RHPS_Theater_Kit/__MACOSX/RHPS Theater Kit/Mylars/._RHPSMylar_01_25x5.jpg",
+    "bytes": 330
+  },
+  {
+    "path": "source/RHPS_Theater_Kit/__MACOSX/RHPS Theater Kit/Mylars/._RHPSMylar_02_11.5x2.5.jpg",
+    "bytes": 331
+  },
+  {
+    "path": "source/RHPS_Theater_Kit/__MACOSX/RHPS Theater Kit/Mylars/._RHPSMylar_02_12x5.jpg",
+    "bytes": 331
+  },
+  {
+    "path": "source/RHPS_Theater_Kit/__MACOSX/RHPS Theater Kit/Mylars/._RHPSMylar_02_25x5.jpg",
+    "bytes": 331
+  },
+  {
+    "path": "source/RHPS_Theater_Kit/__MACOSX/RHPS Theater Kit/Mylars/._RHPSMylar_03_11.5x2.5.jpg",
+    "bytes": 331
+  },
+  {
+    "path": "source/RHPS_Theater_Kit/__MACOSX/RHPS Theater Kit/Mylars/._RHPSMylar_03_12x5.jpg",
+    "bytes": 331
+  },
+  {
+    "path": "source/RHPS_Theater_Kit/__MACOSX/RHPS Theater Kit/Mylars/._RHPSMylar_03_25x5.jpg",
+    "bytes": 331
+  },
+  {
+    "path": "source/RHPS_Theater_Kit/__MACOSX/RHPS Theater Kit/Mylars/._RHPSMylar_04_11.5x2.5.jpg",
+    "bytes": 331
+  },
+  {
+    "path": "source/RHPS_Theater_Kit/__MACOSX/RHPS Theater Kit/Mylars/._RHPSMylar_04_12x5.jpg",
+    "bytes": 331
+  },
+  {
+    "path": "source/RHPS_Theater_Kit/__MACOSX/RHPS Theater Kit/Mylars/._RHPSMylar_04_25x5.jpg",
+    "bytes": 331
+  },
+  {
+    "path": "source/RHPS_Theater_Kit/__MACOSX/RHPS Theater Kit/Photos/._RHPSPhoto_Columbia.jpg",
+    "bytes": 331
+  },
+  {
+    "path": "source/RHPS_Theater_Kit/__MACOSX/RHPS Theater Kit/Photos/._RHPSPhoto_FrankBradJanet.jpg",
+    "bytes": 331
+  },
+  {
+    "path": "source/RHPS_Theater_Kit/__MACOSX/RHPS Theater Kit/Photos/._RHPSPhoto_FrankFloorshow.jpg",
+    "bytes": 331
+  },
+  {
+    "path": "source/RHPS_Theater_Kit/__MACOSX/RHPS Theater Kit/Photos/._RHPSPhoto_FrankGirls.jpg",
+    "bytes": 331
+  },
+  {
+    "path": "source/RHPS_Theater_Kit/__MACOSX/RHPS Theater Kit/Photos/._RHPSPhoto_FrankThrone.jpg",
+    "bytes": 331
+  },
+  {
+    "path": "source/RHPS_Theater_Kit/__MACOSX/RHPS Theater Kit/Photos/._RHPSPhoto_LipsAlt.jpg",
+    "bytes": 331
+  },
+  {
+    "path": "source/RHPS_Theater_Kit/__MACOSX/RHPS Theater Kit/Photos/._ShockTreatmentPhoto_BradJanet.jpg",
+    "bytes": 331
+  },
+  {
+    "path": "source/RHPS_Theater_Kit/__MACOSX/RHPS Theater Kit/Photos/._ShockTreatmentPhoto_Dentonvale.jpg",
+    "bytes": 331
+  },
+  {
+    "path": "source/RHPS_Theater_Kit/__MACOSX/RHPS Theater Kit/Posters/._RHPSPoster_New01.jpg",
+    "bytes": 331
+  },
+  {
+    "path": "source/RHPS_Theater_Kit/__MACOSX/RHPS Theater Kit/Posters/._RHPSPoster_New02.jpg",
+    "bytes": 331
+  },
+  {
+    "path": "source/RHPS_Theater_Kit/__MACOSX/RHPS Theater Kit/Posters/._RHPSPoster_New03.jpg",
+    "bytes": 331
+  },
+  {
+    "path": "source/RHPS_Theater_Kit/__MACOSX/RHPS Theater Kit/Posters/._RHPSPoster_StyleAReplica_27x40.jpg",
+    "bytes": 387
+  },
+  {
+    "path": "source/RHPS_Theater_Kit/__MACOSX/RHPS Theater Kit/Posters/._RHPSPoster_StyleBReplica_27x40.jpg",
+    "bytes": 387
+  },
+  {
+    "path": "source/Rocky_AOE/AOETI_README.pdf",
+    "bytes": 142198
+  },
+  {
+    "path": "source/Rocky_AOE/Truetype/ROCKYAOE.ttf",
+    "bytes": 124340
+  }
+]

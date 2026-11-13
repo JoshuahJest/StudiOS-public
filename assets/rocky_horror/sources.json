@@ -1,0 +1,23 @@
+[
+  {
+    "file": "RHPS_Theater_Kit.zip",
+    "url": "https://rockytalkiepodcast.s3.amazonaws.com/RHPS+Theater+Kit.zip",
+    "rights_note": "Fox/Fan Club promotional theater kit, mirrored by Rocky Talkie; usage rights require review",
+    "bytes": 128421707,
+    "sha256": "44c6e5f8c1fd17db2d0a7705f179382ae3e0570fe1ad0bf5d8cb005266eef8f2"
+  },
+  {
+    "file": "DoubleFeature20.ttf",
+    "url": "https://www.rockyhorror.com/images/downloads/DoubleFeature20.ttf",
+    "rights_note": "SIL Open Font License 1.1 per official fan site",
+    "bytes": 110060,
+    "sha256": "02413071bd60a4ac8069799f2b6cc8317de4a41cabde3d3591bf5ef1792366f5"
+  },
+  {
+    "file": "Rocky_AOE.zip",
+    "url": "https://dl.dafont.com/dl/?f=rocky_aoe",
+    "rights_note": "Dafont lists 100% free; inspect bundled license before redistribution",
+    "bytes": 271199,
+    "sha256": "34228ce09b11a2dacb24a0f4f49c628b93c4a31f389d3e6b2d4223dca8f110b2"
+  }
+]

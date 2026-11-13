@@ -16,6 +16,7 @@ import urllib.error
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any
+from .host_identity import LOCAL_WORKER_ID
 
 log = logging.getLogger("skill-registry")
 
@@ -62,7 +63,7 @@ class WorkerSkills:
     backends: tuple[str, ...] = field(default_factory=tuple)
     models_loaded: tuple[str, ...] = field(default_factory=tuple)
     comfyui_url: str | None = None   # e.g. "http://127.0.0.1:8188"
-    lmstudio_url: str | None = None  # e.g. "http://100.79.103.70:1234"
+    lmstudio_url: str | None = None  # e.g. "http://<enkii-tailnet-ip>:1234"
 
 
 class SkillRegistry:
@@ -171,7 +172,7 @@ class SkillRegistry:
 
     # ── Model discovery ─────────────────────────────────────────────────────
 
-    def fetch_enkii_models(self, lmstudio_url: str = "http://100.79.103.70:1234",
+    def fetch_enkii_models(self, lmstudio_url: str = "http://<enkii-tailnet-ip>:1234",
                            cache_ttl: int = 120) -> tuple[str, ...]:
         """Fetch model list from ENKI-II's LM Studio API."""
         import time
@@ -296,7 +297,7 @@ def register_macbook_worker(registry: SkillRegistry | None = None) -> WorkerSkil
         backends.append("comfyui")
 
     skills = WorkerSkills(
-        worker_id="joshuahs-macbook-pro",
+        worker_id=LOCAL_WORKER_ID,
         skill_tags=skill_tags,
         backends=tuple(sorted(set(backends))),
         models_loaded=("minimax-m2.7",),  # OAuth provider, not a loaded model
@@ -307,7 +308,7 @@ def register_macbook_worker(registry: SkillRegistry | None = None) -> WorkerSkil
 
 
 def register_enkii_worker(registry: SkillRegistry | None = None,
-                          lmstudio_url: str = "http://100.79.103.70:1234") -> WorkerSkills:
+                          lmstudio_url: str = "http://<enkii-tailnet-ip>:1234") -> WorkerSkills:
     """Register ENKI-II RTX 4090 as a worker with known skills."""
     if registry is None:
         registry = DEFAULT_REGISTRY

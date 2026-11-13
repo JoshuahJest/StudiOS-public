@@ -14,7 +14,7 @@
 6. Privacy, authority, data residency, approvals, and host health are hard gates. Cost, energy, and speed only rank candidates that pass all gates.
 7. Capability claims expire and benchmark claims are evidence-backed. Hardware model names alone never qualify a workload.
 8. A staged proposal is not accepted, executed, delivered, completed, or verified until the corresponding durable state and receipt exist.
-9. Cross-machine work is operational. MacBook reaches ENKI-II at `http://100.79.103.70:8765` over Tailscale tailnet. NAS served via `https://joshuahs-macbook-pro.tail1ba312.ts.net/nas/*`. Both hosts enrolled in shared Tailscale org.
+9. Cross-machine work is operational. MacBook reaches ENKI-II at `http://<enkii-tailnet-ip>:8765` over Tailscale tailnet. NAS served via `https://<macbook-tailnet-host>/nas/*`. Both hosts enrolled in shared Tailscale org.
 
 ## 2. Deliverable architecture
 

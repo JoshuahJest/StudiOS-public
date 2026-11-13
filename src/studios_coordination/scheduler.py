@@ -183,7 +183,7 @@ ENKI_II_WORKER: WorkerCapability = WorkerCapability(
 
 
 def refresh_remote_workers(
-    enki_url: str = "http://100.79.103.70:8765",
+    enki_url: str = "http://<enkii-tailnet-ip>:8765",
 ) -> list[WorkerCapability]:
     """Poll ENKI-II's /api/resources and return updated WorkerCapability list."""
     import json as _json
@@ -232,7 +232,7 @@ def dispatch_task_to_enkii(
     privacy_class: str = "private",
     execution_mode: str = "batch",
     input_artifact: str | None = None,
-    enki_url: str = "http://100.79.103.70:8765",
+    enki_url: str = "http://<enkii-tailnet-ip>:8765",
 ) -> dict:
     """Submit a job directly to ENKI-II's StudiOS API. Returns API response."""
     import json as _json

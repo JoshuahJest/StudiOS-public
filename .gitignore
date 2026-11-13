@@ -2,5 +2,40 @@ __pycache__/
 *.py[cod]
 .venv/
 .DS_Store
-.env
+.env*
+!.env.example
 *.log
+*.sqlite
+*.sqlite3
+*.db
+*.db-wal
+*.db-shm
+*.safetensors
+*.gguf
+*.ckpt
+*.pt
+*.pth
+auth.json
+state/
+outputs/
+models/
+datasets/private/
+data/private/
+vendor-review/
+.audit-venv*/
+
+# --- pipeline workspaces (regenerable render output) ---
+workflows/workspace/
+workflows/**/workspace/
+workflows/**/output.mp4
+workflows/**/frames/
+*.mp4
+
+# --- local agent/runtime scratch ---
+.hermes/
+
+# --- large media assets (keep off the repo; source of truth is the NAS) ---
+assets/rocky_horror/source/
+assets/rocky_horror/transparent_png/
+assets/**/*.zip
+assets/**/*.venv/

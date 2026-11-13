@@ -43,7 +43,7 @@ class RemoteTransport:
 
     def __init__(
         self,
-        base_url: str,          # e.g. "http://100.79.103.70:8765"
+        base_url: str,          # e.g. "http://<enkii-tailnet-ip>:8765"
         worker_id: str = "enki-ii",
         timeout: float = 15.0,
     ):
@@ -261,7 +261,7 @@ class RemoteTransport:
 # ── convenience factory ──────────────────────────────────────────────────────
 
 def remote_transport(
-    url: str = "http://100.79.103.70:8765",
+    url: str = "http://<enkii-tailnet-ip>:8765",
     worker_id: str = "enki-ii",
 ) -> RemoteTransport:
     """Create a RemoteTransport pointing at ENKI-II's StudiOS API."""

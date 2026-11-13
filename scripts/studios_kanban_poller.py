@@ -30,6 +30,7 @@ sys.path.insert(0, str(SRC))
 from studios_coordination.prioritization_engine import (
     PrioritizationEngine,
 )
+from studios_coordination.host_identity import LOCAL_WORKER_ID
 from studios_coordination.scheduler import (
     JobRequest,
     WorkerCapability,
@@ -112,7 +113,7 @@ def get_fleet() -> list[WorkerCapability]:
     """Build the current fleet list for dispatch."""
     workers = [
         WorkerCapability(
-            worker_id="joshuahs-macbook-pro",
+            worker_id=LOCAL_WORKER_ID,
             task_kinds=(
                 "comfyui-workflow", "cuda-inference", "document-draft",
                 "code-generation", "research",

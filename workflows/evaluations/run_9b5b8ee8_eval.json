@@ -1,0 +1,38 @@
+{
+  "run_id": "run_9b5b8ee8",
+  "timestamp": "2026-09-13T02:04:19.080218",
+  "stages": {
+    "geometry_isolation": {
+      "pass": true,
+      "size_bytes": 112977,
+      "detail": "Edge mask: 110.3 KB"
+    },
+    "potrace": {
+      "pass": true,
+      "size_bytes": 226666,
+      "detail": "SVG: 221.4 KB"
+    },
+    "svgtrace": {
+      "pass": true,
+      "size_bytes": 186188,
+      "detail": "SVG: 181.8 KB"
+    },
+    "blender_animate": {
+      "pass": true,
+      "frame_count": 120,
+      "avg_frame_size_kb": 505.7,
+      "detail": "120 frames, avg 505.7 KB/frame"
+    },
+    "ffmpeg": {
+      "pass": true,
+      "size_bytes": 10729081,
+      "duration_s": 4.0,
+      "detail": "MP4: 10.2 MB, 4.0s"
+    }
+  },
+  "overall": {
+    "pass": true,
+    "score": 100,
+    "issues": []
+  }
+}

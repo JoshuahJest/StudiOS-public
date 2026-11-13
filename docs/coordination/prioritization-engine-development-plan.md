@@ -1,7 +1,7 @@
 ---
 type: development-plan
 schema: studiosaos-dev/v1
-host: joshuahs-macbook-pro
+host: macbook-worker
 created: 2026-09-06
 updated: 2026-09-06T22:55:00Z
 status: in-progress
@@ -38,7 +38,7 @@ Without this engine, every request requires a human (or the top-level agent) to 
 | Tests | `tests/test_prioritization_engine.py` | ✅ 23/23 passing |
 
 **Verified live:**
-- `POST /api/dispatch {"task_kind":"comfyui-workflow"}` → `{"dispatched":true,"primary_worker_id":"joshuahs-macbook-pro","scores":{"joshuahs-macbook-pro":{"total_score":0.16}}}` ✅
+- `POST /api/dispatch {"task_kind":"comfyui-workflow"}` → `{"dispatched":true,"primary_worker_id":"macbook-worker","scores":{"macbook-worker":{"total_score":0.16}}}` ✅
 
 ---
 
@@ -116,7 +116,7 @@ class SkillRegistry:
 
 **Sources of truth per worker:**
 - MacBook: reads `$HERMES_HOME/skills/` directory + `config.yaml` model settings
-- ENKI-II: reads LM Studio model list from `http://100.79.103.70:1234/v1/models`
+- ENKI-II: reads LM Studio model list from `http://<enkii-tailnet-ip>:1234/v1/models`
 - SOLARIS: read from local config when repaired
 
 ---
@@ -291,7 +291,7 @@ hermes auth add anthropic
 
 ### Option B: Local Claude via LM Studio
 - ENKI-II has `claude` in its process list — a local Claude-compatible server may already be running
-- Check: `curl http://100.79.103.70:8080/v1/models` (common LM Studio / LocalAI port)
+- Check: `curl http://<enkii-tailnet-ip>:8080/v1/models` (common LM Studio / LocalAI port)
 - If available, configure as a custom provider in Hermes with no API cost
 
 **Recommendation:** Add the Anthropic API key. The cost is low and Claude excels at complex reasoning tasks where Codex is rate-limited. Use it as a targeted escalation for difficult architectural decisions, not as a general fallback.

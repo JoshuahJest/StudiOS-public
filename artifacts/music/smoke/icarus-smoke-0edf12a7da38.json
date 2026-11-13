@@ -1,0 +1,41 @@
+{
+  "archive_verified": true,
+  "cleanup_errors": [],
+  "cli_exit_code": 0,
+  "cli_output": "archive=~/Music/.studios-source-archive-smoke-0edf12a7da38/icarus-smoke-0edf12a7da38 files=3 bytes=54 verified=True content_manifest_sha256=2e0adfe0ec3295c69ceeea3765bbc1a28bdbef3ddde342e11a9b8d92d717acc4 manifest_sha256=0adfe4e9af2a65ad407f20c692a8bd6ca57e2b058b34fa4caf0b0cb9353d54a4",
+  "content_manifest_sha256": "2e0adfe0ec3295c69ceeea3765bbc1a28bdbef3ddde342e11a9b8d92d717acc4",
+  "destination_filesystem": {
+    "filesystem_id": [
+      16777231,
+      26
+    ],
+    "mounted_from": "/dev/disk3s5",
+    "mounted_on": "/System/Volumes/Data",
+    "type": "apfs"
+  },
+  "directory_count": 2,
+  "file_count": 3,
+  "local_cleanup_verified": true,
+  "local_smoke_root": "~/Music/.studios-source-archive-smoke-0edf12a7da38",
+  "manifest_sha256": "0adfe4e9af2a65ad407f20c692a8bd6ca57e2b058b34fa4caf0b0cb9353d54a4",
+  "metadata_best_effort_unverified": [
+    "extended_attributes",
+    "resource_forks",
+    "access_control_lists"
+  ],
+  "metadata_verified": [
+    "hierarchy",
+    "type",
+    "size",
+    "data_fork_sha256",
+    "posix_mode",
+    "mtime_seconds"
+  ],
+  "passed": true,
+  "production_executed": false,
+  "remote_cleanup_verified": true,
+  "remote_path": "/Users/archive/.studios-archive-smoke-0edf12a7da38",
+  "scope": "disposable live integration smoke test",
+  "source_id": "icarus-smoke-0edf12a7da38",
+  "total_bytes": 54
+}

@@ -1,0 +1,14 @@
+{
+  "cleanup_errors": [],
+  "cli_exit_code": 0,
+  "cli_output": "archive=~/Music/.studios-source-archive-smoke-25fa10867e86/icarus-smoke-25fa10867e86 files=3 bytes=54 verified=True content_manifest_sha256=3d2c35b3d67ae8a5b4d67fd9dd2cb9419ce51ea312b891e8b221ba637c5184fc manifest_sha256=9ec8bf6f8aeb08f8d2c4b22558bbf8021320818cc231c6f0dc03355eda11efbd",
+  "error": "RuntimeError: manifest hash mismatch",
+  "local_cleanup_verified": true,
+  "local_smoke_root": "~/Music/.studios-source-archive-smoke-25fa10867e86",
+  "passed": false,
+  "production_executed": false,
+  "remote_cleanup_verified": true,
+  "remote_path": "/Users/archive/.studios-archive-smoke-25fa10867e86",
+  "scope": "disposable live integration smoke test",
+  "source_id": "icarus-smoke-25fa10867e86"
+}

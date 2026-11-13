@@ -1,6 +1,6 @@
 # MacBook Capability Card — Proposed Enrollment Input
 
-**Host ID:** `joshuahs-macbook-pro`
+**Host ID:** `macbook-worker`
 **Observed:** 2026-08-29T04:41:56-0500
 **Data class:** shared-nonsecret
 **Status:** preparation only; not enrolled as a remote worker
@@ -11,8 +11,8 @@
 - Hermes Agent v0.20.5; local profile `default`; MiniMax OAuth configured locally.
 - LM Studio installed locally; no qualified local-model benchmark has been completed.
 - Tailscale tag-owned identity `tag:thomas-macbook`.
-- Scoped Tailnet access only to Fukurokuju SMB TCP/445.
-- 14 Fukurokuju SMB shares mounted through the direct LAN path; private Tailnet SMB benchmarked as fallback.
+- Scoped Tailnet access only to <nas-hostname> SMB TCP/445.
+- 14 <nas-hostname> SMB shares mounted through the direct LAN path; private Tailnet SMB benchmarked as fallback.
 - Local no-write envelope validation module tested for host-target and expiry handling.
 
 ## Explicitly absent
@@ -26,7 +26,7 @@
 
 A locally executed, no-write synthetic envelope that is:
 
-- addressed to `joshuahs-macbook-pro`;
+- addressed to `macbook-worker`;
 - short-lived;
 - restricted to an approved local synthetic fixture path;
 - `local-only` for model budget;

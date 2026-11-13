@@ -1,7 +1,7 @@
 ---
 type: coordination-doc
 schema: studios-coordination/v1
-host: joshuahs-macbook-pro
+host: macbook-worker
 updated: 2026-09-06T06:22:00-05:00
 ---
 
@@ -17,7 +17,7 @@ MacBook runs as the primary StudiOS controller. It hosts the Hermes agent (Thoma
 
 **Location:** `src/studios_inbox.py`
 **Purpose:** Receives push-delegated tasks from ENKI-II over the Tailscale mesh
-**Bind:** `0.0.0.0:8765` (via `tailscale serve` → `https://joshuahs-macbook-pro.tail1ba312.ts.net/`)
+**Bind:** `0.0.0.0:8765` (via `tailscale serve` → `https://<macbook-tailnet-host>/`)
 **Port used:** 443 (TLS, via `tailscale serve`) → 8765 (local)
 **Startup:** Background process, should be migrated to launchd service
 **Dependencies:** fastapi, uvicorn (Hermes agent venv Python 3.11)
@@ -51,9 +51,9 @@ MacBook runs as the primary StudiOS controller. It hosts the Hermes agent (Thoma
 ```
 MacBook (Hermes/studi-worker)
   ↓ POST /api/tasks
-ENKI-II StudiOS API (100.79.103.70:8765)
+ENKI-II StudiOS API (<enkii-tailnet-ip>:8765)
   ↓ POST /api/tasks/{id}/delegate
-https://joshuahs-macbook-pro.tail1ba312.ts.net (port 443, TLS)
+https://<macbook-tailnet-host> (port 443, TLS)
   ↓ tailscale serve proxy
 127.0.0.1:8765
   ↓
@@ -68,20 +68,20 @@ MacBook filesystem
 |---|---|---|---|---|
 | MacBook → ENKI-II | tag:thomas-macbook | tag:phase1-control | 8765/TCP | REST task dispatch |
 | ENKI-II → MacBook | tag:phase1-control | tag:thomas-macbook | 443/TCP | Push delegation (tailscale serve) |
-| MacBook ↔ Fukurokuju | tag:thomas-macbook | tag:livesync-nas | 445/TCP | SMB (pre-existing) |
+| MacBook ↔ <nas-hostname> | tag:thomas-macbook | tag:livesync-nas | 445/TCP | SMB (pre-existing) |
 
 ## Environment
 
-- MacBook Tailscale: `100.121.168.39` / `joshuahs-macbook-pro.tail1ba312.ts.net` / `tag:thomas-macbook`
-- ENKI-II Tailscale: `100.79.103.70` / `enki-ii.tail1ba312.ts.net` / `tag:phase1-control`
-- Shared tailnet: `tail1ba312.ts.net`
+- MacBook Tailscale: `<macbook-tailnet-ip>` / `<macbook-tailnet-host>` / `tag:thomas-macbook`
+- ENKI-II Tailscale: `<enkii-tailnet-ip>` / `<enkii-tailnet-host>` / `tag:phase1-control`
+- Shared tailnet: `<shared-tailnet-domain>`
 
 ## Startup Commands
 
 ```bash
 # Start studios_inbox (once, background)
-cd /Users/thomas/StudiOS-1.1
-PYTHONPATH=src /Users/thomas/.hermes/hermes-agent/venv/bin/python3.11 -c "
+cd ~/StudiOS-1.1
+PYTHONPATH=src ~/.hermes/hermes-agent/venv/bin/python3.11 -c "
 import uvicorn, sys; sys.path.insert(0, 'src')
 from studios_inbox import app
 uvicorn.run(app, host='0.0.0.0', port=8765, log_level='info')
@@ -92,7 +92,7 @@ sudo /Applications/Tailscale.app/Contents/MacOS/Tailscale serve --bg 8765
 
 # Verify
 curl http://127.0.0.1:8765/api/health
-curl https://joshuahs-macbook-pro.tail1ba312.ts.net/api/worker/inbox  # should 405/404 not timeout
+curl https://<macbook-tailnet-host>/api/worker/inbox  # should 405/404 not timeout
 ```
 
 ## To Do

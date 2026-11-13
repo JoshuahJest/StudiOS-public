@@ -1,0 +1,16 @@
+{
+  "cleanup_errors": [
+    "remote cleanup failed: zsh:1: no such file or directory: /usr/bin/test"
+  ],
+  "cli_exit_code": 1,
+  "cli_output": "Traceback (most recent call last):\n  File \"~/StudiOS-1.1/scripts/music_archive.py\", line 9, in <module>\n    from studios_music.archive import (\nModuleNotFoundError: No module named 'studios_music'",
+  "error": "RuntimeError: live smoke archive failed: Traceback (most recent call last):\n  File \"~/StudiOS-1.1/scripts/music_archive.py\", line 9, in <module>\n    from studios_music.archive import (\nModuleNotFoundError: No module named 'studios_music'",
+  "local_cleanup_verified": true,
+  "local_smoke_root": "~/Music/.studios-source-archive-smoke-24f6cc020139",
+  "passed": false,
+  "production_executed": false,
+  "remote_cleanup_verified": true,
+  "remote_path": "/Users/archive/.studios-archive-smoke-24f6cc020139",
+  "scope": "disposable live integration smoke test",
+  "source_id": "icarus-smoke-24f6cc020139"
+}

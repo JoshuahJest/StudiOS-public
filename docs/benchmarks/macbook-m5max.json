@@ -1,0 +1,25 @@
+{
+  "host_id": "macbook-m5max",
+  "qualified_at": "2026-09-05T22:59:00Z",
+  "benchmarks": {
+    "vram_survey": {
+      "total_vram_gb": 128.0,
+      "free_vram_gb": 90.52,
+      "device_count": 1
+    },
+    "comfyui_queue_latency": {
+      "latency_seconds": 0.0037,
+      "status": 200
+    },
+    "disk_survey": {
+      "total_gb": 1858.1,
+      "free_gb": 1417.7
+    }
+  },
+  "sysinfo": {
+    "cpu_cores": 18,
+    "memory_total_gb": 128.0,
+    "memory_free_gb": 90.5,
+    "disk_free_gb": 1417.7
+  }
+}

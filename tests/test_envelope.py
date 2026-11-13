@@ -15,13 +15,13 @@ def valid_envelope(**overrides):
         "issuer_id": "enki-ii-controller",
         "issuer_key_id": "enki-key-1",
         "issuer_signature": "proposed-not-verified",
-        "intended_host": "joshuahs-macbook-pro",
+        "intended_host": "macbook-worker",
         "created_at": now.isoformat(),
         "expires_at": (now + timedelta(minutes=5)).isoformat(),
         "policy_digest": "policy-v1",
         "input_manifest": [{"ref": "fixture://synthetic-v1", "sha256": "a" * 64}],
         "allowed_capabilities": ["read-only-fixture"],
-        "allowed_paths": ["/Users/thomas/StudiOS-1.1/fixtures"],
+        "allowed_paths": ["~/StudiOS-1.1/fixtures"],
         "required_evidence": ["summary", "cleanup"],
         "idempotency_key": "idem-001",
         "kind": "read-only",
@@ -39,7 +39,7 @@ def valid_envelope(**overrides):
 
 class EnvelopeValidationTests(unittest.TestCase):
     def test_accepts_a_current_envelope_for_its_intended_host(self):
-        result = validate_envelope(valid_envelope(), host_id="joshuahs-macbook-pro")
+        result = validate_envelope(valid_envelope(), host_id="macbook-worker")
 
         self.assertTrue(result.accepted)
         self.assertIsNone(result.reason)
@@ -48,7 +48,7 @@ class EnvelopeValidationTests(unittest.TestCase):
     def test_rejects_an_expired_envelope(self):
         result = validate_envelope(
             valid_envelope(expires_at=(datetime.now(timezone.utc) - timedelta(seconds=1)).isoformat()),
-            host_id="joshuahs-macbook-pro",
+            host_id="macbook-worker",
         )
 
         self.assertFalse(result.accepted)
@@ -57,7 +57,7 @@ class EnvelopeValidationTests(unittest.TestCase):
     def test_rejects_a_raw_shell_command_payload(self):
         result = validate_envelope(
             valid_envelope(command="rm -rf /"),
-            host_id="joshuahs-macbook-pro",
+            host_id="macbook-worker",
         )
 
         self.assertFalse(result.accepted)

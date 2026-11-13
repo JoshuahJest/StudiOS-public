@@ -1,0 +1,33 @@
+{
+  "run_id": "run_e6783eb6",
+  "timestamp": "2026-09-13T02:04:19.113863",
+  "stages": {
+    "geometry_isolation": {
+      "pass": true,
+      "size_bytes": 112977,
+      "detail": "Edge mask: 110.3 KB"
+    },
+    "potrace": {
+      "pass": true,
+      "size_bytes": 226666,
+      "detail": "SVG: 221.4 KB"
+    },
+    "svgtrace": {
+      "pass": null,
+      "detail": "No svgtrace output found"
+    },
+    "blender_animate": {
+      "pass": null,
+      "detail": "No render frames found"
+    },
+    "ffmpeg": {
+      "pass": null,
+      "detail": "No video output found"
+    }
+  },
+  "overall": {
+    "pass": true,
+    "score": 100,
+    "issues": []
+  }
+}

@@ -1,0 +1,470 @@
+[
+  {
+    "file": "transparent_png/RHPSLogo_LipsFrank GS.png",
+    "source": "source/RHPS_Theater_Kit/RHPS Theater Kit/Logos/RHPSLogo_LipsFrank GS.png",
+    "method": "original high-resolution theater-kit logo (preserved alpha)",
+    "width": 1517,
+    "height": 1016,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "transparent_fraction": 0.39
+  },
+  {
+    "file": "transparent_png/RHPSLogo_LipsFrank.png",
+    "source": "source/RHPS_Theater_Kit/RHPS Theater Kit/Logos/RHPSLogo_LipsFrank.png",
+    "method": "original high-resolution theater-kit logo (preserved alpha)",
+    "width": 1517,
+    "height": 1016,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "transparent_fraction": 0.39
+  },
+  {
+    "file": "transparent_png/RHPSLogo_Lips.png",
+    "source": "source/RHPS_Theater_Kit/RHPS Theater Kit/Logos/RHPSLogo_Lips.png",
+    "method": "original high-resolution theater-kit logo (preserved alpha)",
+    "width": 2661,
+    "height": 1404,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "transparent_fraction": 0.375
+  },
+  {
+    "file": "transparent_png/Columbia_auto.png",
+    "source": "source/RHPS_Theater_Kit/RHPS Theater Kit/Photos/RHPSPhoto_Columbia.jpg",
+    "method": "u2netp automatic foreground mask; draft matte, inspect edges/limbs before show use",
+    "width": 1589,
+    "height": 2802,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "transparent_fraction": 0.639
+  },
+  {
+    "file": "transparent_png/FrankFloorshow_auto.png",
+    "source": "source/RHPS_Theater_Kit/RHPS Theater Kit/Photos/RHPSPhoto_FrankFloorshow.jpg",
+    "method": "u2netp automatic foreground mask; draft matte, inspect edges/limbs before show use",
+    "width": 955,
+    "height": 2763,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "transparent_fraction": 0.528
+  },
+  {
+    "file": "transparent_png/FrankGirls_auto.png",
+    "source": "source/RHPS_Theater_Kit/RHPS Theater Kit/Photos/RHPSPhoto_FrankGirls.jpg",
+    "method": "u2netp automatic foreground mask; draft matte, inspect edges/limbs before show use",
+    "width": 1931,
+    "height": 1895,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "transparent_fraction": 0.287
+  },
+  {
+    "file": "transparent_png/FrankThrone_auto.png",
+    "source": "source/RHPS_Theater_Kit/RHPS Theater Kit/Photos/RHPSPhoto_FrankThrone.jpg",
+    "method": "u2netp automatic foreground mask; draft matte, inspect edges/limbs before show use",
+    "width": 1959,
+    "height": 1869,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "transparent_fraction": 0.336
+  },
+  {
+    "file": "transparent_png/FrankBradJanet_auto.png",
+    "source": "source/RHPS_Theater_Kit/RHPS Theater Kit/Photos/RHPSPhoto_FrankBradJanet.jpg",
+    "method": "u2netp automatic foreground mask; draft matte, inspect edges/limbs before show use",
+    "width": 2360,
+    "height": 1745,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "transparent_fraction": 0.552
+  },
+  {
+    "file": "transparent_png/LipsAlt_auto.png",
+    "source": "source/RHPS_Theater_Kit/RHPS Theater Kit/Photos/RHPSPhoto_LipsAlt.jpg",
+    "method": "u2netp automatic foreground mask; draft matte, inspect edges/limbs before show use",
+    "width": 1382,
+    "height": 893,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "transparent_fraction": 0.344
+  },
+  {
+    "file": "transparent_png/RHPS_still_01_auto.png",
+    "source": "source/tmdb_stills/RHPS_still_01.jpg",
+    "method": "u2netp automatic foreground mask; UNREVIEWED draft, may select wrong subject or omit limbs",
+    "width": 507,
+    "height": 704,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "transparent_fraction": 0.256
+  },
+  {
+    "file": "transparent_png/RHPS_still_02_auto.png",
+    "source": "source/tmdb_stills/RHPS_still_02.jpg",
+    "method": "u2netp automatic foreground mask; UNREVIEWED draft, may select wrong subject or omit limbs",
+    "width": 1365,
+    "height": 961,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "transparent_fraction": 0.315
+  },
+  {
+    "file": "transparent_png/RHPS_still_03_auto.png",
+    "source": "source/tmdb_stills/RHPS_still_03.jpg",
+    "method": "u2netp automatic foreground mask; UNREVIEWED draft, may select wrong subject or omit limbs",
+    "width": 1448,
+    "height": 873,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "transparent_fraction": 0.383
+  },
+  {
+    "file": "transparent_png/RHPS_still_04_auto.png",
+    "source": "source/tmdb_stills/RHPS_still_04.jpg",
+    "method": "u2netp automatic foreground mask; UNREVIEWED draft, may select wrong subject or omit limbs",
+    "width": 2975,
+    "height": 2047,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "transparent_fraction": 0.4
+  },
+  {
+    "file": "transparent_png/RHPS_still_05_auto.png",
+    "source": "source/tmdb_stills/RHPS_still_05.jpg",
+    "method": "u2netp automatic foreground mask; UNREVIEWED draft, may select wrong subject or omit limbs",
+    "width": 1898,
+    "height": 992,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "transparent_fraction": 0.324
+  },
+  {
+    "file": "transparent_png/RHPS_still_06_auto.png",
+    "source": "source/tmdb_stills/RHPS_still_06.jpg",
+    "method": "u2netp automatic foreground mask; UNREVIEWED draft, may select wrong subject or omit limbs",
+    "width": 1406,
+    "height": 787,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "transparent_fraction": 0.629
+  },
+  {
+    "file": "transparent_png/RHPS_still_07_auto.png",
+    "source": "source/tmdb_stills/RHPS_still_07.jpg",
+    "method": "u2netp automatic foreground mask; UNREVIEWED draft, may select wrong subject or omit limbs",
+    "width": 1383,
+    "height": 982,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "transparent_fraction": 0.753
+  },
+  {
+    "file": "transparent_png/RHPS_still_08_auto.png",
+    "source": "source/tmdb_stills/RHPS_still_08.jpg",
+    "method": "u2netp automatic foreground mask; UNREVIEWED draft, may select wrong subject or omit limbs",
+    "width": 1646,
+    "height": 2160,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "transparent_fraction": 0.388
+  },
+  {
+    "file": "transparent_png/RHPS_still_09_auto.png",
+    "source": "source/tmdb_stills/RHPS_still_09.jpg",
+    "method": "u2netp automatic foreground mask; UNREVIEWED draft, may select wrong subject or omit limbs",
+    "width": 1197,
+    "height": 1080,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "transparent_fraction": 0.485
+  },
+  {
+    "file": "transparent_png/RHPS_still_10_auto.png",
+    "source": "source/tmdb_stills/RHPS_still_10.jpg",
+    "method": "u2netp automatic foreground mask; UNREVIEWED draft, may select wrong subject or omit limbs",
+    "width": 1269,
+    "height": 1007,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "transparent_fraction": 0.308
+  },
+  {
+    "file": "transparent_png/RHPS_still_11_auto.png",
+    "source": "source/tmdb_stills/RHPS_still_11.jpg",
+    "method": "u2netp automatic foreground mask; UNREVIEWED draft, may select wrong subject or omit limbs",
+    "width": 836,
+    "height": 446,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "transparent_fraction": 0.346
+  },
+  {
+    "file": "transparent_png/RHPS_still_12_auto.png",
+    "source": "source/tmdb_stills/RHPS_still_12.jpg",
+    "method": "u2netp automatic foreground mask; UNREVIEWED draft, may select wrong subject or omit limbs",
+    "width": 3095,
+    "height": 1990,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "transparent_fraction": 0.573
+  },
+  {
+    "file": "transparent_png/RHPS_still_13_auto.png",
+    "source": "source/tmdb_stills/RHPS_still_13.jpg",
+    "method": "u2netp automatic foreground mask; UNREVIEWED draft, may select wrong subject or omit limbs",
+    "width": 1442,
+    "height": 792,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "transparent_fraction": 0.564
+  },
+  {
+    "file": "transparent_png/RHPS_still_14_auto.png",
+    "source": "source/tmdb_stills/RHPS_still_14.jpg",
+    "method": "u2netp automatic foreground mask; UNREVIEWED draft, may select wrong subject or omit limbs",
+    "width": 1664,
+    "height": 1208,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "transparent_fraction": 0.449
+  },
+  {
+    "file": "transparent_png/RHPS_still_15_auto.png",
+    "source": "source/tmdb_stills/RHPS_still_15.jpg",
+    "method": "u2netp automatic foreground mask; UNREVIEWED draft, may select wrong subject or omit limbs",
+    "width": 662,
+    "height": 1039,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "transparent_fraction": 0.68
+  },
+  {
+    "file": "transparent_png/RHPS_still_16_auto.png",
+    "source": "source/tmdb_stills/RHPS_still_16.jpg",
+    "method": "u2netp automatic foreground mask; UNREVIEWED draft, may select wrong subject or omit limbs",
+    "width": 1975,
+    "height": 1228,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "transparent_fraction": 0.472
+  },
+  {
+    "file": "transparent_png/RHPS_still_17_auto.png",
+    "source": "source/tmdb_stills/RHPS_still_17.jpg",
+    "method": "u2netp automatic foreground mask; UNREVIEWED draft, may select wrong subject or omit limbs",
+    "width": 1694,
+    "height": 1228,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "transparent_fraction": 0.543
+  },
+  {
+    "file": "transparent_png/RHPS_still_18_auto.png",
+    "source": "source/tmdb_stills/RHPS_still_18.jpg",
+    "method": "u2netp automatic foreground mask; UNREVIEWED draft, may select wrong subject or omit limbs",
+    "width": 895,
+    "height": 1167,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "transparent_fraction": 0.505
+  },
+  {
+    "file": "transparent_png/RHPS_still_19_auto.png",
+    "source": "source/tmdb_stills/RHPS_still_19.jpg",
+    "method": "u2netp automatic foreground mask; UNREVIEWED draft, may select wrong subject or omit limbs",
+    "width": 2263,
+    "height": 1195,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "transparent_fraction": 0.42
+  },
+  {
+    "file": "transparent_png/RHPS_still_20_auto.png",
+    "source": "source/tmdb_stills/RHPS_still_20.jpg",
+    "method": "u2netp automatic foreground mask; UNREVIEWED draft, may select wrong subject or omit limbs",
+    "width": 1669,
+    "height": 1179,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "transparent_fraction": 0.367
+  },
+  {
+    "file": "transparent_png/RHPS_still_21_auto.png",
+    "source": "source/tmdb_stills/RHPS_still_21.jpg",
+    "method": "u2netp automatic foreground mask; UNREVIEWED draft, may select wrong subject or omit limbs",
+    "width": 1529,
+    "height": 1234,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "transparent_fraction": 0.512
+  },
+  {
+    "file": "transparent_png/RHPS_still_22_auto.png",
+    "source": "source/tmdb_stills/RHPS_still_22.jpg",
+    "method": "u2netp automatic foreground mask; UNREVIEWED draft, may select wrong subject or omit limbs",
+    "width": 1220,
+    "height": 1184,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "transparent_fraction": 0.499
+  },
+  {
+    "file": "transparent_png/RHPS_still_23_auto.png",
+    "source": "source/tmdb_stills/RHPS_still_23.jpg",
+    "method": "u2netp automatic foreground mask; UNREVIEWED draft, may select wrong subject or omit limbs",
+    "width": 1005,
+    "height": 1306,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "transparent_fraction": 0.38
+  },
+  {
+    "file": "transparent_png/RHPS_still_24_auto.png",
+    "source": "source/tmdb_stills/RHPS_still_24.jpg",
+    "method": "u2netp automatic foreground mask; UNREVIEWED draft, may select wrong subject or omit limbs",
+    "width": 1043,
+    "height": 1184,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "transparent_fraction": 0.316
+  },
+  {
+    "file": "transparent_png/RHPS_still_25_auto.png",
+    "source": "source/tmdb_stills/RHPS_still_25.jpg",
+    "method": "u2netp automatic foreground mask; UNREVIEWED draft, may select wrong subject or omit limbs",
+    "width": 1967,
+    "height": 1223,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "transparent_fraction": 0.436
+  },
+  {
+    "file": "transparent_png/RHPS_still_26_auto.png",
+    "source": "source/tmdb_stills/RHPS_still_26.jpg",
+    "method": "u2netp automatic foreground mask; UNREVIEWED draft, may select wrong subject or omit limbs",
+    "width": 1964,
+    "height": 1214,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "transparent_fraction": 0.46
+  },
+  {
+    "file": "transparent_png/RHPS_still_27_auto.png",
+    "source": "source/tmdb_stills/RHPS_still_27.jpg",
+    "method": "u2netp automatic foreground mask; UNREVIEWED draft, may select wrong subject or omit limbs",
+    "width": 1778,
+    "height": 1249,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "transparent_fraction": 0.508
+  },
+  {
+    "file": "transparent_png/RHPS_still_28_auto.png",
+    "source": "source/tmdb_stills/RHPS_still_28.jpg",
+    "method": "u2netp automatic foreground mask; UNREVIEWED draft, may select wrong subject or omit limbs",
+    "width": 1926,
+    "height": 1239,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "transparent_fraction": 0.264
+  },
+  {
+    "file": "transparent_png/RHPS_still_29_auto.png",
+    "source": "source/tmdb_stills/RHPS_still_29.jpg",
+    "method": "u2netp automatic foreground mask; UNREVIEWED draft, may select wrong subject or omit limbs",
+    "width": 1989,
+    "height": 1333,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "transparent_fraction": 0.541
+  },
+  {
+    "file": "transparent_png/RHPS_still_30_auto.png",
+    "source": "source/tmdb_stills/RHPS_still_30.jpg",
+    "method": "u2netp automatic foreground mask; UNREVIEWED draft, may select wrong subject or omit limbs",
+    "width": 1811,
+    "height": 1531,
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "transparent_fraction": 0.562
+  }
+]

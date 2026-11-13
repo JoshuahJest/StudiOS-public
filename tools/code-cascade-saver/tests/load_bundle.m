@@ -2,7 +2,7 @@
 
 int main(void) {
     @autoreleasepool {
-        NSBundle *bundle = [NSBundle bundleWithPath:@"/Users/thomas/Library/Screen Savers/Code Cascade.saver"];
+        NSBundle *bundle = [NSBundle bundleWithPath:@"~/Library/Screen Savers/Code Cascade.saver"];
         NSError *error = nil;
         if (![bundle loadAndReturnError:&error]) {
             NSLog(@"bundle-load-failed: %@", error);

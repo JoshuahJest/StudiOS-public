@@ -39,6 +39,7 @@ from .scheduler import (
 )
 from .skill_registry import SkillRegistry, DEFAULT_REGISTRY
 from .energy_policy import EnergyResult, evaluate_worker_energy
+from .host_identity import LOCAL_WORKER_ID
 
 log = logging.getLogger("prioritization-engine")
 
@@ -168,7 +169,7 @@ def read_local_worker_state() -> LiveWorkerState:
         pass
 
     return LiveWorkerState(
-        worker_id="joshuahs-macbook-pro",
+        worker_id=LOCAL_WORKER_ID,
         online=True,
         active_jobs=0,
         vram_free_gb=None,   # Unified memory — no discrete VRAM boundary
@@ -208,7 +209,7 @@ class PrioritizationEngine:
         # ENKII/SOLARIS from poller cache
         self._live_states = read_enkii_live_state(resource_path)
         # MacBook live state
-        self._live_states["joshuahs-macbook-pro"] = read_local_worker_state()
+        self._live_states[LOCAL_WORKER_ID] = read_local_worker_state()
 
     def get_live_state(self, worker_id: str) -> LiveWorkerState | None:
         return self._live_states.get(worker_id)
@@ -466,7 +467,7 @@ class PrioritizationEngine:
         # Always include MacBook
         from .scheduler import WorkerCapability
         workers.append(WorkerCapability(
-            worker_id="joshuahs-macbook-pro",
+            worker_id=LOCAL_WORKER_ID,
             task_kinds=("comfyui-workflow", "document-draft", "code-review",
                        "local-ollama", "nas-file-op"),
             backends=("mps", "cpu", "comfyui"),

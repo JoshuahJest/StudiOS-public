@@ -16,6 +16,7 @@ import logging
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
+from .host_identity import LOCAL_WORKER_ID
 
 log = logging.getLogger("energy-policy")
 
@@ -506,7 +507,7 @@ def evaluate_solaris(job_min_vram_gb: float,
 # Data-driven per-worker policy dispatch.
 # Register worker-specific evaluators here — no code changes needed to add a worker.
 _WORKER_EVALUATORS: dict[str, callable] = {
-    "joshuahs-macbook-pro": evaluate_macbook,
+    LOCAL_WORKER_ID: evaluate_macbook,
     "enki-ii": evaluate_enkii,
     "solaris": evaluate_solaris,
 }

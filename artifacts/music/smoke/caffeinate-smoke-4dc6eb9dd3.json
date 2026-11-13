@@ -1,0 +1,12 @@
+{
+  "cli_exit_code": 0,
+  "cli_output": "archive=~/Music/.studios-caffeinate-smoke-4dc6eb9dd3/caffeinate-smoke-4dc6eb9dd3 files=1 bytes=21 verified=True content_manifest_sha256=4e95a123f280efd1729169983a5aee4b7baf127de2812e1b112d49a2ff0f4df9 manifest_sha256=d57daa17ecc789eff6759e5b5de50beb921b1af3e37f61d8943c32539a6a91b6",
+  "content_manifest_sha256": "4e95a123f280efd1729169983a5aee4b7baf127de2812e1b112d49a2ff0f4df9",
+  "file_count": 1,
+  "local_cleanup_verified": true,
+  "passed": true,
+  "production_executed": false,
+  "remote_cleanup_verified": true,
+  "source_id": "caffeinate-smoke-4dc6eb9dd3",
+  "total_bytes": 21
+}
