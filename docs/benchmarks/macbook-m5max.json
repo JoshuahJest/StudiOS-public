@@ -1,25 +1,39 @@
 {
-  "host_id": "macbook-m5max",
-  "qualified_at": "2026-09-05T22:59:00Z",
-  "benchmarks": {
-    "vram_survey": {
+  "vram_survey": {
+    "score": 0.0,
+    "duration_s": 0.052,
+    "details": {
       "total_vram_gb": 128.0,
-      "free_vram_gb": 90.52,
+      "free_vram_gb": 93.05,
       "device_count": 1
     },
-    "comfyui_queue_latency": {
-      "latency_seconds": 0.0037,
+    "measured_at": "2026-11-13T01:56:00.458665+00:00"
+  },
+  "comfyui_queue_latency": {
+    "score": 0.0,
+    "duration_s": 0.005,
+    "details": {
+      "latency_seconds": 0.0047,
       "status": 200
     },
-    "disk_survey": {
+    "measured_at": "2026-11-13T01:56:00.463787+00:00"
+  },
+  "disk_survey": {
+    "score": 0.0,
+    "duration_s": 0.0,
+    "details": {
       "total_gb": 1858.1,
-      "free_gb": 1417.7
-    }
+      "used_gb": 1015.0,
+      "free_gb": 843.1
+    },
+    "measured_at": "2026-11-13T01:56:00.463996+00:00"
   },
   "sysinfo": {
     "cpu_cores": 18,
-    "memory_total_gb": 128.0,
-    "memory_free_gb": 90.5,
-    "disk_free_gb": 1417.7
-  }
+    "mem_total_gb": 128.0,
+    "mem_free_gb": 93.1,
+    "disk_free_gb": 843.1
+  },
+  "qualified_at": "2026-11-13T01:56:00.464119+00:00",
+  "host_id": "macbook-m5max"
 }
